@@ -2,9 +2,13 @@
 .pre-commit-config.yaml
 .env
 /pyproject.toml
-calculator_packages/calculator_service/sw_out/obf_src/
-calculator_packages/calculator_service/sw_out/build/**/*.py
+calculator_packages/calculator_microservice/sw_out/obf_src/
+calculator_packages/calculator_microservice/sw_out/build/**/*.py
 __pycache__/
 .json
 .log
 .csv
+Dockerfile
+Dockerfile.*
+docker-compose*.yml
+.dockerignore
